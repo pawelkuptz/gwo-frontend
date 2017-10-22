@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Gdańskie Wydawnictwo Oświatowe</title>
+</head>
+<body>
+
+<div class="books container">
+    <div class="books__wrapper row">
+        <div class="books__wrapper__form col-12">
+            <!--begin form-->
+            <form>
+                <div class="fields row">
+                    <div class="fields__search col-8">
+                        <input id="search" class="form-control" type="text"
+                               placeholder="Znajdź podręcznik do danego przedmiotu (np. historia)"/>
+                    </div>
+
+                    <div class="fields__submit col-4">
+                        <input id="submit" class="btn btn-primary" type="submit" value="Szukaj"/>
+                    </div>
+                </div>
+
+            </form>
+            <!--end form-->
+        </div>
+
+        <div class="books__wrapper__results col-12">
+            <!--begin results-->
+            <div id="results" class="row"></div>
+            <!--end results-->
+        </div>
+
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

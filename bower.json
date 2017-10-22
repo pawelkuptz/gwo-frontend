@@ -1,0 +1,20 @@
+{
+  "name": "gwo-api",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "pawelkuptz"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pawelkuptz/GWO.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+  }
+}
